@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="t d">
+<title id="t">VitraCell Delta State Response evidence boundary</title><desc id="d">A two-column graphic separating what a synthetic computational study can establish from what still requires biological experiments.</desc>
+<rect width="900" height="620" rx="24" fill="#0d2029"/>
+<text x="55" y="70" fill="#69d6df" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="2">ΔSR COMPUTATIONAL FEASIBILITY</text>
+<text x="55" y="112" fill="#fff" font-family="Arial,sans-serif" font-size="29" font-weight="700">A useful stress test is not biological validation.</text>
+<line x1="450" y1="158" x2="450" y2="560" stroke="#31505a" stroke-width="2"/>
+<g font-family="Arial,sans-serif">
+<text x="55" y="180" fill="#67d7df" font-size="18" font-weight="700">THE STUDY CAN ESTABLISH</text>
+<g fill="#dbecef" font-size="17"><text x="78" y="228">• The hypothesis can be expressed as an executable test.</text><text x="78" y="276">• A single delta is not extra information if baseline</text><text x="98" y="300">and endpoint are already known.</text><text x="78" y="348">• Identity errors, noise, sampling and validation design</text><text x="98" y="372">can erase or falsely inflate modeled value.</text><text x="78" y="420">• The decisive experiment must compare full history</text><text x="98" y="444">against simpler predictors on held-out groups.</text></g>
+<text x="495" y="180" fill="#f2a88f" font-size="18" font-weight="700">THE STUDY CANNOT ESTABLISH</text>
+<g fill="#dbecef" font-size="17"><text x="518" y="228">• That real tumor cells contain an informative ΔSR signal.</text><text x="518" y="276">• That DEP is the best measurement modality.</text><text x="518" y="324">• That VitraCell predicts resistance or drug response.</text><text x="518" y="372">• Assay sensitivity, specificity or clinical utility.</text><text x="518" y="420">• Economic value to pharma or CRO customers.</text></g>
+<rect x="55" y="505" width="790" height="68" rx="14" fill="#102e39" stroke="#31505a"/><text x="450" y="534" text-anchor="middle" fill="#fff" font-size="17" font-weight="700">The next proof is experimental:</text><text x="450" y="559" text-anchor="middle" fill="#b9d4d9" font-size="15">same identified cell → early measurements → independently observed fate → simpler comparator.</text>
+</g>
+</svg>
