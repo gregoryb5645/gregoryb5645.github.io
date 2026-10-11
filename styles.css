@@ -386,3 +386,15 @@ footer p { margin: 0; }
   .hub-grid { padding:45px 0 65px; }
   .footer-links { flex-direction:column; gap:8px; }
 }
+
+
+/* ===== Service-forward positioning — October 2026 ===== */
+.evidence-note { margin:24px 0 0; padding:16px 18px; border-left:3px solid var(--teal); background:#f4f8f8; color:#526c76; font-size:13px; line-height:1.6; }
+.service-cta { max-width:1180px; margin:28px auto 0; padding:34px 38px; display:grid; grid-template-columns:1fr auto; gap:38px; align-items:center; border:1px solid var(--line); background:#fff; }
+.service-cta h3 { margin:0 0 10px; font-size:28px; line-height:1.14; }
+.service-cta p:not(.eyebrow) { margin:0; max-width:760px; color:var(--slate); line-height:1.62; }
+.service-cta .button { white-space:nowrap; }
+@media (max-width:760px){
+  .service-cta { grid-template-columns:1fr; padding:28px; }
+  .service-cta .button { width:100%; }
+}
