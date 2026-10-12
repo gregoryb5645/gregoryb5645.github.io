@@ -398,3 +398,65 @@ footer p { margin: 0; }
   .service-cta { grid-template-columns:1fr; padding:28px; }
   .service-cta .button { width:100%; }
 }
+
+
+/* ===== Rare-cell platform direction — October 2026 ===== */
+.applications-section { background:#fff; }
+.application-grid { max-width:1180px; margin:0 auto; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; }
+.application-card { min-height:390px; padding:34px; border:1px solid var(--line); border-radius:20px; display:flex; flex-direction:column; background:#f8fbfb; }
+.application-card > span { color:var(--teal); font-size:11px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+.application-card h3 { margin:78px 0 18px; font-size:30px; line-height:1.08; letter-spacing:-.03em; }
+.application-card p { color:var(--slate); line-height:1.62; }
+.application-card a { margin-top:auto; padding-top:24px; color:var(--teal); font-weight:800; }
+.featured-application { background:var(--navy); color:#fff; border-color:var(--navy); }
+.featured-application > span,.featured-application a { color:var(--cyan); }
+.featured-application p { color:#c7dde1; }
+.application-note { max-width:1180px; margin:22px auto 0; padding:22px 26px; display:grid; grid-template-columns:160px 1fr; gap:24px; border-left:4px solid var(--cyan); background:var(--ice); }
+.application-note strong { color:var(--teal); }
+.application-note span { color:#48646e; line-height:1.55; }
+.science-four { grid-template-columns:repeat(4,1fr); }
+.science-four article { min-height:410px; padding:28px; }
+.science-four h3 { font-size:25px; }
+.science-four a { margin-top:20px; color:var(--teal); font-weight:800; font-size:13px; line-height:1.45; }
+.science-four .constraint-answer a { color:var(--cyan); }
+
+.application-body { max-width:1040px; padding:78px 0 100px; }
+.application-principle { max-width:820px; margin-bottom:70px; }
+.application-principle h2,.application-vertical h2,.platform-boundary h2 { font-size:40px; line-height:1.08; letter-spacing:-.035em; }
+.application-principle p,.application-vertical p,.platform-boundary p { color:var(--slate); font-size:18px; line-height:1.7; }
+.application-vertical { display:grid; grid-template-columns:.9fr 1.1fr; gap:56px; align-items:start; margin:0 0 36px; padding:42px; border:1px solid var(--line); border-radius:20px; background:#fff; }
+.dark-vertical { background:var(--night); color:#fff; border-color:var(--night); }
+.dark-vertical p { color:#bcd1d5; }
+.dark-vertical .insight-kicker,.dark-vertical .text-link { color:var(--cyan); }
+.use-case-list { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+.use-case-list > div { padding:24px; border-radius:14px; background:#f3f8f8; }
+.dark-vertical .use-case-list > div { background:#0b2a35; }
+.use-case-list strong { display:block; margin-bottom:14px; color:var(--teal); font-size:11px; text-transform:uppercase; letter-spacing:.1em; }
+.dark-vertical .use-case-list strong { color:var(--cyan); }
+.use-case-list span { display:block; padding:10px 0; border-bottom:1px solid var(--line); color:#48646e; line-height:1.45; font-size:14px; }
+.dark-vertical .use-case-list span { color:#d1e2e5; border-color:rgba(255,255,255,.13); }
+.use-case-list span:last-child { border-bottom:0; }
+.text-link { display:inline-block; margin-top:10px; color:var(--teal); font-weight:800; }
+.platform-boundary { margin:70px 0; padding:42px; background:#edf6f6; border-radius:20px; }
+.application-sources { margin:70px 0; }
+.application-sources h2 { font-size:34px; }
+.source-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.source-grid a { padding:22px; border:1px solid var(--line); border-radius:14px; background:#fff; }
+.source-grid strong { display:block; margin-bottom:8px; color:var(--ink); }
+.source-grid span { color:var(--slate); font-size:14px; line-height:1.45; }
+
+@media (max-width:1100px){
+  .science-four { grid-template-columns:repeat(2,1fr); }
+}
+@media (max-width:900px){
+  .application-grid,.application-vertical { grid-template-columns:1fr; }
+  .application-card { min-height:0; }
+  .application-card h3 { margin-top:36px; }
+  .use-case-list,.source-grid { grid-template-columns:1fr; }
+}
+@media (max-width:720px){
+  .science-four { grid-template-columns:1fr; }
+  .application-note { grid-template-columns:1fr; }
+  .application-vertical,.platform-boundary { padding:28px; }
+  .application-principle h2,.application-vertical h2,.platform-boundary h2 { font-size:32px; }
+}
