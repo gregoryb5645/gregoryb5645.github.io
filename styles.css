@@ -549,3 +549,50 @@ footer p { margin: 0; }
  .record-preview-grid { grid-template-columns:1fr; }
  .record-preview-identity { align-items:flex-start; }
 }
+
+/* Streamlined customer-first homepage. Scope rules to avoid changing research and applications pages. */
+.concise-section { padding-top:78px; padding-bottom:78px; }
+.concise-section .section-heading { margin-bottom:32px; gap:46px; align-items:center; }
+.concise-section .section-heading h2 { font-size:clamp(34px,3.55vw,51px); }
+.concise-section .section-heading > p, .concise-section .section-heading > div + p { font-size:17px; line-height:1.58; }
+.concise-section .thesis-grid article { min-height:0; padding:28px 30px; }
+.concise-section .thesis-grid h3 { margin:19px 0 10px; font-size:23px; }
+.concise-section .thesis-grid p { margin:0; font-size:15px; line-height:1.52; }
+.concise-section .thesis-links { margin-top:21px; }
+.concise-section .application-card { min-height:0; padding:30px; }
+.concise-section .application-card h3 { margin:32px 0 13px; font-size:27px; }
+.concise-section .application-card p { margin:0; font-size:15px; line-height:1.55; }
+.concise-section .application-card a { padding-top:22px; }
+.science-bridge { padding:43px 6vw; display:grid; grid-template-columns:minmax(0,1fr) auto; gap:40px; align-items:center; background:#e9f4f3; border-block:1px solid var(--line); }
+.science-bridge .eyebrow { margin-bottom:12px; }
+.science-bridge h2 { max-width:780px; margin:0 0 12px; font-size:clamp(23px,2.4vw,34px); line-height:1.16; letter-spacing:-.025em; }
+.science-bridge p:not(.eyebrow) { max-width:760px; margin:0; line-height:1.6; color:#3c5b65; font-size:15px; }
+.science-bridge-links { display:flex; flex-direction:column; gap:12px; align-items:flex-start; }
+.science-bridge-links a { color:#00696f; font-size:14px; font-weight:800; white-space:nowrap; text-decoration:underline; text-underline-offset:4px; }
+.program-section.concise-section .program-grid.three-gate .program-card { min-height:0; padding:30px; border-radius:18px; }
+.program-section.concise-section .program-card h3 { margin:23px 0 12px; font-size:27px; }
+.program-section.concise-section .program-card > p { margin:0; font-size:15px; line-height:1.55; }
+.program-section.concise-section .current-card .program-status em { color:#c1e0e4; }
+.program-section.concise-section .evidence-card .program-status em { color:#386771; }
+.program-section.concise-section .service-cta { margin-top:26px; padding:30px 34px; border-radius:16px; }
+.program-section.concise-section .service-cta .eyebrow { margin-bottom:10px; }
+.program-section.concise-section .service-cta h3 { margin-bottom:10px; }
+@media (max-width:960px) {
+ .concise-section .section-heading { gap:22px; }
+ .science-bridge { grid-template-columns:1fr; gap:22px; }
+ .science-bridge-links { flex-direction:row; flex-wrap:wrap; gap:20px; }
+}
+@media (max-width:720px) {
+ .concise-section { padding:59px 24px; }
+ .concise-section .section-heading h2 { font-size:34px; }
+ .concise-section .thesis-grid { grid-template-columns:1fr; }
+ .concise-section .thesis-grid article { padding:24px; }
+ .concise-section .thesis-grid h3 { margin-top:12px; }
+ .concise-section .application-card { padding:25px; }
+ .concise-section .application-card h3 { margin-top:20px; font-size:25px; }
+ .science-bridge { padding:36px 24px; }
+ .science-bridge-links a { white-space:normal; }
+ .program-section.concise-section .program-grid.three-gate .program-card { padding:24px; }
+ .program-section.concise-section .program-card h3 { margin-top:16px; }
+ .program-section.concise-section .service-cta { padding:25px; }
+}
